@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Transport</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="./theam.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+
+
+<div class="w3-white">
+  <div>
+  
+        <center>
+        <img src="logo.jpeg" class="logo"/>
+        </center>
+  </div>
+  <div class="w3-bar w3-light-gray">
+        <center>
+        <p class="w3-button  w3-hide-medium w3-hide-large w3-left " style="margin-bottom:  10px" >SHISAM INTERNATIONAL</p>
+        <a class="w3-bar-item w3-button  w3-hide-medium w3-hide-large w3-right " style="margin-bottom:  10px" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <p></p>
+        <a href="index.html" class=" w3-button  w3-hide-small" style="margin-bottom:  10px">HOME</a>
+        <a href="ourproduct.html" class=" w3-button  w3-hide-small" style="margin-bottom: 10px"> Our Product</a>
+        <a href="aboutus.html" class=" w3-button  w3-hide-small" style="margin-bottom: 10px">About Us</a>
+        <a href="aboutus.html" class=" w3-button  w3-hide-small" style="margin-bottom: 10px">Quality Policy</a>
+        <a href="#contact" class=" w3-button  w3-hide-small" style="margin-bottom: 10px">CONTACT</a>
+        </center>
+    </div>
+  </div>
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium">
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large active" onclick="myFunction()">HOME</a>
+  <a href="ourproduct.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Our Product</a>
+  <a href="aboutus.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About Us</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Quality Policy</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large " onclick="myFunction()">CONTACT</a>
+</div>
+<!-- Page content -->
+<div class="w3-content bg1" style="max-width:2000px;">
+
+ <div >
+    <!-- Quality Policy   -->
+    <div class="w3-center ">
+      <div id="services"  class="container-fluid text-left wwp" style="text-align: justify; color: white; " >
+        <center><h2>Quality Policy </h2></center>
+          <p>In order to offer superior quality rice, Fresh cumin seeds, Fresh pomegranates, we are having the best quality inspection team.</p>
+
+          <p>These products are cultivated or grown at large farms, orchards or fields. The entire range is grown without using pesticides or other harmful products and by employing the most modern technology, methodology & equipment.</p>
+          <p>We make sure to offer products that comply with the international food grade standards. </p>
+          <p>Our product range is thoroughly checked on certain well-defined parameters and packed using genuine quality packaging material. </p>
+          <p>Owing to the flawless nature, our product range is highly demanded all across the nation and the globally too.</p>
+
+        <br>
+      </div>
+    </div>
+    <!-- end Quality Policy   -->
+    
+  </div>
+
+ 
+
+
+
+  <!-- The Contact Section -->
+  <div id="#contact" class="w3-white" >
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Rajkot, IN<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +91 9537904000 ,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91 9537905000,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91 9537906000<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+  
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+</script>
+<script type="text/javascript">
+$(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+</script>
+</body>
+</html>
